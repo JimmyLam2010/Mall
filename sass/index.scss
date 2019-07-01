@@ -1,0 +1,152 @@
+@import "common.scss";
+
+.banner{
+    a{
+        img{
+            width: 100%;
+        }
+    }
+}
+
+.menu{
+    padding-top: 0.28rem;
+    padding-bottom: 0.28rem;
+    border-bottom: 1px solid #d3d3d3;
+
+    .box{
+        text-align: center;
+        position: relative;
+
+        img{
+            width: 0.9rem;
+            height: 0.9rem;
+        }
+
+        p{
+            font-size: 0.24rem;
+            margin-top: 0.14rem;
+            margin-bottom: 0;
+        }
+    }
+
+    #promotion::after{
+        content: '';
+        width: 0.59rem;
+        height: 0.27rem;
+        background-image: url("../images/hot.png");
+        background-size: cover;
+        position: absolute;
+        top: -0.07rem;
+        right: 0.4rem;
+    }
+}
+
+.product-list{
+    background-color: #f8f8f8;
+    padding-top: 0.2rem;
+    padding-bottom: 1.2rem;
+
+    .product{
+        background-color: #ffffff;
+        border: 1px solid #d3d3d3;
+        height: 3.5rem;
+        padding-left: 0.4rem;
+        margin-bottom: 0.22rem;
+        position: relative;
+
+        .product-name{
+            font-size: 0.42rem;
+            font-family: "宋体";
+            margin-top: 0.35rem;
+        }
+
+        .product-info{
+            width: fit-content;
+            font-size: 0.27rem;
+            font-family: "宋体";
+            border-bottom: 1px solid #000000;
+
+            span:first-child{
+                font-size: 0.6rem;
+                font-family: "微软雅黑";
+            }
+        }
+
+        .offer{
+            font-size: 0.26rem;
+            font-family: "宋体";
+            color: #818181;
+        }
+
+        img{
+            width: 2.94rem;
+            height: 2.14rem;
+            position: absolute;
+            top: 0.35rem;
+            right: 0.4rem;
+        }
+    }
+
+    .product:nth-child(2n+1){
+        .product-name{
+            color: #eb4f89;
+        }
+
+        .product-info{
+            span{
+                color: #eb4f89;
+            }
+        }
+    }
+
+    .product:nth-child(2n){
+        .product-name{
+            color: #3bd7f9;
+        }
+
+        .product-info{
+            span{
+                color: #3bd7f9;
+            }
+        }
+    }
+}
+
+.footer{
+    padding-top: 0.14rem;
+    padding-bottom: 0.14rem;
+    background-color: #ffffff;
+    border-top: 1px solid #d3d3d3;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+    .nav{
+        a{
+            margin: 0 auto;
+            text-align: center;
+            text-decoration: none;
+
+            img{
+                width: 0.5rem;
+                height: 0.5rem;
+            }
+
+            p{
+                font-size: 0.24rem;
+                font-family: "宋体";
+                color: #949494;
+                margin-bottom: 0;
+            }
+        }    
+    }
+
+    .home{
+        a{
+            p{
+                color: #fea31e;
+            }
+        }
+        
+    }
+}

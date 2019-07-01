@@ -1,0 +1,68 @@
+@import "reset.css";
+
+.header{
+    background-color: #fece02;
+    padding-top: 0.16rem;
+    padding-bottom: 0.16rem;
+
+    .logo{
+        margin-top: 0.06rem;
+
+        img{
+            width: 0.64rem;
+            height: 0.62rem;
+        }   
+    }
+
+    .search{
+        position: relative;
+
+        #search-sumbit{
+            width: 0.38rem;
+            height: 0.36rem;
+            background-image: url("../images/search.png");
+            background-color: transparent;
+            background-size: cover;
+            border: none;
+            outline: none;
+            position: absolute;
+            top: 0.19rem;
+            left: 15px;
+            transform: translateX(0.22rem);
+        }
+
+        #search{
+            width: 100%;
+            height: 0.69rem;
+            border: none;
+            outline: none;
+            font-size: 0.3rem;
+            border-radius: 0.3rem;
+            background-color: rgba($color: #ffffff, $alpha: 0.5);
+            padding-left: 0.84rem;
+        }
+    }
+
+    #search::placeholder{
+        font-size: 0.3rem;
+        color: #ffffff;
+    }
+
+    .scan{
+        margin-top: 0.14rem;
+
+        img{
+            width: 0.43rem;
+            height: 0.4rem;
+        }
+    }
+
+    .notification{
+        margin-top: 0.14rem;
+
+        img{
+            width: 0.38rem;
+            height: 0.42rem;
+        }
+    }
+}

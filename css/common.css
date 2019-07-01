@@ -1,0 +1,48 @@
+@import url(reset.css);
+.header {
+  background-color: #fece02;
+  padding-top: 0.16rem;
+  padding-bottom: 0.16rem; }
+  .header .logo {
+    margin-top: 0.06rem; }
+    .header .logo img {
+      width: 0.64rem;
+      height: 0.62rem; }
+  .header .search {
+    position: relative; }
+    .header .search #search-sumbit {
+      width: 0.38rem;
+      height: 0.36rem;
+      background-image: url("../images/search.png");
+      background-color: transparent;
+      background-size: cover;
+      border: none;
+      outline: none;
+      position: absolute;
+      top: 0.19rem;
+      left: 15px;
+      transform: translateX(0.22rem); }
+    .header .search #search {
+      width: 100%;
+      height: 0.69rem;
+      border: none;
+      outline: none;
+      font-size: 0.3rem;
+      border-radius: 0.3rem;
+      background-color: rgba(255, 255, 255, 0.5);
+      padding-left: 0.84rem; }
+  .header #search::placeholder {
+    font-size: 0.3rem;
+    color: #ffffff; }
+  .header .scan {
+    margin-top: 0.14rem; }
+    .header .scan img {
+      width: 0.43rem;
+      height: 0.4rem; }
+  .header .notification {
+    margin-top: 0.14rem; }
+    .header .notification img {
+      width: 0.38rem;
+      height: 0.42rem; }
+
+/*# sourceMappingURL=common.css.map */
