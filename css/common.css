@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url(reset.css);
 .header {
   background-color: #fece02;
@@ -44,5 +45,29 @@
     .header .notification img {
       width: 0.38rem;
       height: 0.42rem; }
+
+.footer {
+  padding-top: 0.14rem;
+  padding-bottom: 0.14rem;
+  background-color: #ffffff;
+  border-top: 1px solid #d3d3d3;
+  position: fixed;
+  bottom: 0;
+  width: 100%; }
+  .footer .nav a {
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: none; }
+    .footer .nav a img {
+      width: 0.5rem;
+      height: 0.5rem; }
+    .footer .nav a p {
+      font-size: 0.24rem;
+      font-family: "宋体";
+      color: #949494;
+      margin-bottom: 0; }
+  .footer #home a p,
+  .footer #my a p {
+    color: #fea31e; }
 
 /*# sourceMappingURL=common.css.map */

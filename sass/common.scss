@@ -66,3 +66,42 @@
         }
     }
 }
+
+.footer{
+    padding-top: 0.14rem;
+    padding-bottom: 0.14rem;
+    background-color: #ffffff;
+    border-top: 1px solid #d3d3d3;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+    .nav{
+        a{
+            margin: 0 auto;
+            text-align: center;
+            text-decoration: none;
+
+            img{
+                width: 0.5rem;
+                height: 0.5rem;
+            }
+
+            p{
+                font-size: 0.24rem;
+                font-family: "宋体";
+                color: #949494;
+                margin-bottom: 0;
+            }
+        }    
+    }
+
+    #home,
+    #my{
+        a{
+            p{
+                color: #fea31e;
+            }
+        }
+    }
+}
