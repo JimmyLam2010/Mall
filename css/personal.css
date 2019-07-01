@@ -67,7 +67,8 @@
       color: #949494;
       margin-bottom: 0; }
   .footer #home a p,
-  .footer #my a p {
+  .footer #my a p,
+  .footer #mall a p {
     color: #fea31e; }
 
 .top {
@@ -98,7 +99,7 @@
 .other-function {
   background-color: #f8f8f8;
   padding-top: 0.25rem;
-  padding-bottom: 5rem; }
+  padding-bottom: 9rem; }
   .other-function div {
     background-color: #ffffff;
     border-top: 1px solid #c2c2c2;

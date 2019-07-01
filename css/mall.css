@@ -1,0 +1,170 @@
+@charset "UTF-8";
+@import url(reset.css);
+.header {
+  background-color: #fece02;
+  padding-top: 0.16rem;
+  padding-bottom: 0.16rem; }
+  .header .logo {
+    margin-top: 0.06rem; }
+    .header .logo img {
+      width: 0.64rem;
+      height: 0.62rem; }
+  .header .search {
+    position: relative; }
+    .header .search #search-sumbit {
+      width: 0.38rem;
+      height: 0.36rem;
+      background-image: url("../images/search.png");
+      background-color: transparent;
+      background-size: cover;
+      border: none;
+      outline: none;
+      position: absolute;
+      top: 0.19rem;
+      left: 15px;
+      transform: translateX(0.22rem); }
+    .header .search #search {
+      width: 100%;
+      height: 0.69rem;
+      border: none;
+      outline: none;
+      font-size: 0.3rem;
+      border-radius: 0.3rem;
+      background-color: rgba(255, 255, 255, 0.5);
+      padding-left: 0.84rem; }
+  .header #search::placeholder {
+    font-size: 0.3rem;
+    color: #ffffff; }
+  .header .scan {
+    margin-top: 0.14rem; }
+    .header .scan img {
+      width: 0.43rem;
+      height: 0.4rem; }
+  .header .notification {
+    margin-top: 0.14rem; }
+    .header .notification img {
+      width: 0.38rem;
+      height: 0.42rem; }
+
+.footer {
+  padding-top: 0.14rem;
+  padding-bottom: 0.14rem;
+  background-color: #ffffff;
+  border-top: 1px solid #d3d3d3;
+  position: fixed;
+  bottom: 0;
+  width: 100%; }
+  .footer .nav a {
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: none; }
+    .footer .nav a img {
+      width: 0.5rem;
+      height: 0.5rem; }
+    .footer .nav a p {
+      font-size: 0.24rem;
+      font-family: "宋体";
+      color: #949494;
+      margin-bottom: 0; }
+  .footer #home a p,
+  .footer #my a p,
+  .footer #mall a p {
+    color: #fea31e; }
+
+body {
+  overflow-y: hidden; }
+
+.mall {
+  display: flex; }
+  .mall .category {
+    display: inline-block;
+    overflow-y: scroll;
+    flex-basis: 20%; }
+    .mall .category ul {
+      margin-bottom: 0; }
+      .mall .category ul li {
+        display: block;
+        font-size: 0.3rem;
+        padding-top: 0.25rem;
+        padding-bottom: 0.3rem;
+        padding-left: 0.25rem;
+        padding-right: 0.25rem;
+        border-left: 1px solid transparent;
+        border-bottom: 1px solid #d4d4d4;
+        background-color: #f8f8f8; }
+      .mall .category ul li:first-child {
+        border-left: 1px solid #fece02;
+        color: #fea31e; }
+      .mall .category ul li:hover {
+        border-left: 1px solid #fece02;
+        color: #fea31e; }
+  .mall .goods {
+    display: inline-block;
+    overflow-y: scroll;
+    flex-basis: 80%; }
+    .mall .goods .goods-title {
+      font-size: 0.3rem;
+      background-color: #f8f8f8;
+      padding-top: 0.08rem;
+      padding-left: 0.1rem;
+      padding-bottom: 0.1rem; }
+    .mall .goods ul li {
+      display: block;
+      padding-top: 0.16rem;
+      padding-left: 2.08rem;
+      position: relative;
+      border-bottom: 1px solid #d4d4d4; }
+      .mall .goods ul li img {
+        width: 1.33rem;
+        height: 0.93rem;
+        position: absolute;
+        top: 0.62rem;
+        left: 0.42rem; }
+      .mall .goods ul li .goods-info {
+        display: inline-block;
+        width: fit-content;
+        margin-left: 0.32rem; }
+        .mall .goods ul li .goods-info .goods-tag {
+          display: inline-block;
+          width: fit-content;
+          font-size: 0.27rem;
+          font-family: "宋体";
+          color: #ff4100;
+          border: 1px solid #ff4100;
+          border-radius: 0.1rem; }
+        .mall .goods ul li .goods-info .goods-name {
+          display: inline-block;
+          width: fit-content;
+          font-size: 0.28rem; }
+        .mall .goods ul li .goods-info .goods-promotion {
+          width: fit-content;
+          margin-top: 0.1rem;
+          padding: 0.08rem;
+          font-size: 0.22rem;
+          font-family: "宋体";
+          color: #ffffff;
+          background-color: #f85252;
+          border-radius: 0.1rem; }
+        .mall .goods ul li .goods-info .specification {
+          margin-top: 0.05rem;
+          font-size: 0.3rem;
+          color: #929091; }
+        .mall .goods ul li .goods-info .price {
+          font-size: 0.36rem;
+          color: #ff4100; }
+        .mall .goods ul li .goods-info .add {
+          text-decoration: none;
+          display: block;
+          width: 0.62rem;
+          height: 0.62rem;
+          border: 1px solid #dfdfdf;
+          border-radius: 50%;
+          text-align: center;
+          font-size: 0.48rem;
+          line-height: 0.48rem;
+          color: #ff4400;
+          position: absolute;
+          bottom: 0.22rem;
+          right: 0.14rem; }
+
+/*# sourceMappingURL=mall.css.map */

@@ -1,0 +1,134 @@
+@import "common.scss";
+
+body{
+    overflow-y: hidden;
+}
+
+.mall{
+    display: flex;
+
+    .category{
+        display: inline-block;
+        overflow-y: scroll;
+        flex-basis: 20%;
+
+        ul{
+            margin-bottom: 0;
+
+            li{
+                display: block;
+                font-size: 0.3rem;
+                padding-top: 0.25rem;
+                padding-bottom: 0.3rem;
+                padding-left: 0.25rem;
+                padding-right: 0.25rem;
+                border-left: 1px solid transparent;
+                border-bottom: 1px solid #d4d4d4;
+                background-color: #f8f8f8;
+            }
+
+            li:first-child{
+                border-left: 1px solid #fece02;
+                color: #fea31e;
+            }
+
+            li:hover{
+                border-left: 1px solid #fece02;
+                color: #fea31e;
+            }
+        }
+    }
+
+    .goods{
+        display: inline-block;
+        overflow-y: scroll;
+        flex-basis: 80%;
+
+        .goods-title{
+            font-size: 0.3rem;
+            background-color: #f8f8f8;
+            padding-top: 0.08rem;
+            padding-left: 0.1rem;
+            padding-bottom: 0.1rem;
+        }
+
+        ul{
+            li{
+                display: block;
+                padding-top: 0.16rem;
+                padding-left: 2.08rem;
+                position: relative;
+                border-bottom: 1px solid #d4d4d4;
+
+                img{
+                    width: 1.33rem;
+                    height: 0.93rem;
+                    position: absolute;
+                    top: 0.62rem;
+                    left: 0.42rem;
+                }
+
+                .goods-info{
+                    display: inline-block;
+                    width: fit-content;
+                    margin-left: 0.32rem;
+
+                    .goods-tag{
+                        display: inline-block;
+                        width: fit-content;
+                        font-size: 0.27rem;
+                        font-family: "宋体";
+                        color: #ff4100;
+                        border: 1px solid #ff4100;
+                        border-radius: 0.1rem;
+                    }
+
+                    .goods-name{
+                        display: inline-block;
+                        width: fit-content;
+                        font-size: 0.28rem;
+                    }
+
+                    .goods-promotion{
+                        width: fit-content;
+                        margin-top: 0.1rem;
+                        padding: 0.08rem;
+                        font-size: 0.22rem;
+                        font-family: "宋体";
+                        color: #ffffff;
+                        background-color: #f85252;
+                        border-radius: 0.1rem;
+                    }
+
+                    .specification{
+                        margin-top: 0.05rem;
+                        font-size: 0.3rem;
+                        color: #929091;
+                    }
+
+                    .price{
+                        font-size: 0.36rem;
+                        color: #ff4100;
+                    }
+
+                    .add{
+                        text-decoration: none;
+                        display: block;
+                        width: 0.62rem;
+                        height: 0.62rem;
+                        border: 1px solid #dfdfdf;
+                        border-radius: 50%;
+                        text-align: center;
+                        font-size: 0.48rem;
+                        line-height: 0.48rem;
+                        color: #ff4400;
+                        position: absolute;
+                        bottom: 0.22rem;
+                        right: 0.14rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
