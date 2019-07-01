@@ -1,0 +1,203 @@
+@charset "UTF-8";
+@import url(reset.css);
+.header {
+  background-color: #fece02;
+  padding-top: 0.16rem;
+  padding-bottom: 0.16rem; }
+  .header .logo {
+    margin-top: 0.06rem; }
+    .header .logo img {
+      width: 0.64rem;
+      height: 0.62rem; }
+  .header .search {
+    position: relative; }
+    .header .search #search-sumbit {
+      width: 0.38rem;
+      height: 0.36rem;
+      background-image: url("../images/search.png");
+      background-color: transparent;
+      background-size: cover;
+      border: none;
+      outline: none;
+      position: absolute;
+      top: 0.19rem;
+      left: 15px;
+      transform: translateX(0.22rem); }
+    .header .search #search {
+      width: 100%;
+      height: 0.69rem;
+      border: none;
+      outline: none;
+      font-size: 0.3rem;
+      border-radius: 0.3rem;
+      background-color: rgba(255, 255, 255, 0.5);
+      padding-left: 0.84rem; }
+  .header #search::placeholder {
+    font-size: 0.3rem;
+    color: #ffffff; }
+  .header .scan {
+    margin-top: 0.14rem; }
+    .header .scan img {
+      width: 0.43rem;
+      height: 0.4rem; }
+  .header .notification {
+    margin-top: 0.14rem; }
+    .header .notification img {
+      width: 0.38rem;
+      height: 0.42rem; }
+
+.footer {
+  padding-top: 0.14rem;
+  padding-bottom: 0.14rem;
+  background-color: #ffffff;
+  border-top: 1px solid #d3d3d3;
+  position: fixed;
+  bottom: 0;
+  width: 100%; }
+  .footer .nav a {
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: none; }
+    .footer .nav a img {
+      width: 0.5rem;
+      height: 0.5rem; }
+    .footer .nav a p {
+      font-size: 0.24rem;
+      font-family: "宋体";
+      color: #949494;
+      margin-bottom: 0; }
+  .footer #home a p,
+  .footer #my a p,
+  .footer #mall a p {
+    color: #fea31e; }
+
+.product-header {
+  padding-top: 0.18rem;
+  padding-bottom: 0.16rem;
+  border-bottom: 0.02rem solid #d9d9d9; }
+  .product-header .back a {
+    font-size: 0.5rem;
+    color: #fd540e; }
+  .product-header .product-name {
+    font-size: 0.32rem;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 0.12rem; }
+  .product-header .logo img {
+    width: 0.7rem;
+    height: 0.7rem; }
+
+.product-img {
+  padding-top: 0.5rem;
+  padding-bottom: 0.48rem;
+  text-align: center;
+  border-bottom: 0.02rem solid #d9d9d9; }
+  .product-img img {
+    width: 2.77rem;
+    height: 3.28rem; }
+
+.product-info {
+  padding-top: 0.22rem;
+  padding-left: 0.32rem;
+  padding-bottom: 0.16rem;
+  border-bottom: 0.02rem solid #d9d9d9; }
+  .product-info .product-name {
+    font-size: 0.37rem; }
+  .product-info .product-price {
+    font-size: 0.48rem;
+    color: #e8470e;
+    margin-top: 0.42rem; }
+    .product-info .product-price span {
+      font-size: 0.42rem;
+      color: #cecece;
+      text-decoration: line-through; }
+
+.brand,
+.specification {
+  background-color: #f8f8f8;
+  border-bottom: 0.02rem solid #d9d9d9;
+  padding-top: 0.2rem;
+  padding-bottom: 0.25rem;
+  padding-left: 0.25rem;
+  font-size: 0.28rem; }
+  .brand span,
+  .specification span {
+    display: inline-block;
+    width: 1.2rem;
+    font-size: 0.3rem;
+    color: #9e9e9e;
+    text-align-last: justify;
+    margin-right: 0.55rem; }
+
+.banner-bottom {
+  padding: 0.14rem 0;
+  background-color: #eaebef; }
+  .banner-bottom .logo-big {
+    padding-top: 1.1rem;
+    padding-bottom: 0.82rem;
+    background-color: #ffffff;
+    text-align: center; }
+    .banner-bottom .logo-big img {
+      width: 3.65rem;
+      height: 1.9rem; }
+
+.settle {
+  padding-top: 0.15rem;
+  padding-bottom: 0.18rem;
+  padding-left: 0.33rem;
+  background-color: #f4f5f5;
+  font-size: 0.3rem;
+  border-top: 0.02rem solid #d9d9d9;
+  position: relative; }
+  .settle #minus,
+  .settle #add {
+    display: inline-block;
+    width: 0.61rem;
+    height: 0.61rem;
+    font-size: 0.48rem;
+    line-height: 0.48rem;
+    color: #fea31e;
+    text-align: center;
+    border: 0.01rem solid #dfdfdf;
+    border-radius: 50%;
+    cursor: pointer; }
+  .settle #minus {
+    margin-left: 0.28rem; }
+  .settle #product-number {
+    display: inline-block;
+    width: fit-content;
+    margin-left: 0.2rem;
+    margin-right: 0.2rem; }
+  .settle #buy {
+    width: 1.28rem;
+    height: 1.28rem;
+    background-color: #fea31e;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 0.24rem;
+    position: absolute;
+    bottom: 0.14rem;
+    right: 0.18rem;
+    cursor: pointer; }
+    .settle #buy img {
+      width: 0.65rem;
+      height: 0.5rem;
+      transform: translateY(0.26rem); }
+    .settle #buy p {
+      margin-bottom: 0;
+      transform: translateY(0.26rem);
+      color: #ffffff; }
+  .settle::before {
+    content: '';
+    display: inline-block;
+    width: 1.4rem;
+    height: 0.7rem;
+    background-color: #f4f5f5;
+    border-radius: 1.4rem 1.4rem 0 0;
+    border: 0.01rem solid #dfdfdf;
+    border-bottom: none;
+    position: absolute;
+    top: -0.55rem;
+    right: 0.12rem; }
+
+/*# sourceMappingURL=product_detail.css.map */
