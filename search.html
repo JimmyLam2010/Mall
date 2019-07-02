@@ -7,17 +7,18 @@
     <title>搜索</title>
     <link rel="stylesheet" href="css/search.css">
     <script src="js/device-fit.js"></script>
+    <script src="js/search.js"></script>
 </head>
 <body>
     <div class="header">
         <div class="container">
             <div class="row">
                 <div class="col-2 col-sm-1 col-md-1 col-lg-1 col-xl-1 back">
-                    <a href="index.html"><</a>    
+                    <a href="javascript:void(0)" id="back" onclick="backTo()"><</a>    
                 </div>
                 <div class="col-8 col-sm-10 col-md-10 col-lg-10 col-xl-10 search">
                     <input type="submit" value="" id="search-sumbit">
-                    <input type="search" name="search" id="search" placeholder="输入商家、分类或商圈" checked>
+                    <input type="search" name="search" id="search" placeholder="输入商家、分类或商圈" autofocus>
                 </div>
                 <div class="col-2 col-sm-1 col-md-1 col-lg-1 col-xl-1 logo">
                     <img src="images/logo.png" alt="">
