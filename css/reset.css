@@ -5,12 +5,18 @@ body,div,ol,ul,li,p,h1,h2,h3,h4,h5,h6{
     font-family: "微软雅黑";
     color: #333333;
 }
+html{
+    -webkit-user-select:none;
+   -moz-user-select:none;
+   -ms-user-select:none;
+   user-select:none;
+}
 body{
     min-height: 100%;
     overflow-x: hidden;
     position: relative;
 }
-body div{
+body > div{
     width: 100%;
 }
 ol,li,ul{

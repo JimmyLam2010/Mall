@@ -76,6 +76,7 @@
   padding-bottom: 0.16rem;
   border-bottom: 0.02rem solid #d9d9d9; }
   .product-header .back a {
+    text-decoration: none;
     font-size: 0.5rem;
     color: #fd540e; }
   .product-header .product-name {
@@ -163,7 +164,7 @@
     cursor: pointer; }
   .settle #minus {
     margin-left: 0.28rem; }
-  .settle #product-number {
+  .settle #product_number {
     display: inline-block;
     width: fit-content;
     margin-left: 0.2rem;
