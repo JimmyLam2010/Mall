@@ -1,4 +1,5 @@
 @import "reset.css";
+@import "../bootstrap-4.3.1-dist/css/bootstrap.min.css";
 
 .header{
     background-color: #fece02;
@@ -63,6 +64,14 @@
         img{
             width: 0.38rem;
             height: 0.42rem;
+        }
+    }
+
+    .back{
+        a{
+            text-decoration: none;
+            font-size: 0.5rem;
+            color: #ffffff;
         }
     }
 }

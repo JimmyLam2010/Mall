@@ -1,0 +1,153 @@
+@charset "UTF-8";
+@import url(reset.css);
+@import url(../bootstrap-4.3.1-dist/css/bootstrap.min.css);
+.header {
+  background-color: #fece02;
+  padding-top: 0.16rem;
+  padding-bottom: 0.16rem; }
+  .header .logo {
+    margin-top: 0.06rem; }
+    .header .logo img {
+      width: 0.64rem;
+      height: 0.62rem; }
+  .header .search {
+    position: relative; }
+    .header .search #search-sumbit {
+      width: 0.38rem;
+      height: 0.36rem;
+      background-image: url("../images/search.png");
+      background-color: transparent;
+      background-size: cover;
+      border: none;
+      outline: none;
+      position: absolute;
+      top: 0.19rem;
+      left: 15px;
+      transform: translateX(0.22rem); }
+    .header .search #search {
+      width: 100%;
+      height: 0.69rem;
+      border: none;
+      outline: none;
+      font-size: 0.3rem;
+      border-radius: 0.3rem;
+      background-color: rgba(255, 255, 255, 0.5);
+      padding-left: 0.84rem; }
+  .header #search::placeholder {
+    font-size: 0.3rem;
+    color: #ffffff; }
+  .header .scan {
+    margin-top: 0.14rem; }
+    .header .scan img {
+      width: 0.43rem;
+      height: 0.4rem; }
+  .header .notification {
+    margin-top: 0.14rem; }
+    .header .notification img {
+      width: 0.38rem;
+      height: 0.42rem; }
+  .header .back a {
+    text-decoration: none;
+    font-size: 0.5rem;
+    color: #ffffff; }
+
+.footer {
+  padding-top: 0.14rem;
+  padding-bottom: 0.14rem;
+  background-color: #ffffff;
+  border-top: 1px solid #d3d3d3;
+  position: fixed;
+  bottom: 0;
+  width: 100%; }
+  .footer .nav a {
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: none; }
+    .footer .nav a img {
+      width: 0.5rem;
+      height: 0.5rem; }
+    .footer .nav a p {
+      font-size: 0.24rem;
+      font-family: "宋体";
+      color: #949494;
+      margin-bottom: 0; }
+  .footer #home a p,
+  .footer #my a p,
+  .footer #mall a p {
+    color: #fea31e; }
+
+body {
+  background-color: #eeeeee; }
+
+.search-hot {
+  width: 90%;
+  margin: 20px auto 0;
+  background-color: #ffffff;
+  padding: 0.15rem 0.2rem 0.2rem; }
+  .search-hot .hot ul {
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    margin-bottom: 0; }
+    .search-hot .hot ul li:nth-child(1) {
+      flex-basis: 33.3%; }
+    .search-hot .hot ul li:nth-child(2) {
+      flex-basis: 33.3%; }
+    .search-hot .hot ul li:nth-child(3) {
+      flex-basis: 33.3%; }
+    .search-hot .hot ul li {
+      flex-basis: 50%;
+      font-size: 0.3rem;
+      text-align: center;
+      border-bottom: 0.01rem solid #c2c2c2;
+      border-right: 0.01rem solid #c2c2c2;
+      padding-top: 0.26rem;
+      padding-bottom: 0.32rem; }
+    .search-hot .hot ul li:first-child {
+      color: #ff5b00; }
+    .search-hot .hot ul li:nth-child(3) {
+      border-right: none; }
+    .search-hot .hot ul li:nth-child(2n+3) {
+      border-right: none; }
+  .search-hot .pagination {
+    margin-top: 0.15rem; }
+    .search-hot .pagination ul {
+      margin: 0 auto; }
+      .search-hot .pagination ul li {
+        display: inline-block;
+        width: 0.18rem;
+        height: 0.18rem;
+        border: 0.01rem solid #c2c2c2;
+        border-radius: 50%;
+        cursor: pointer; }
+      .search-hot .pagination ul li:first-child {
+        background-color: #fe9002; }
+      .search-hot .pagination ul li:hover {
+        background-color: #fe9002; }
+
+.search-history {
+  background-color: #ffffff;
+  margin-top: 0.1rem;
+  text-align: center; }
+  .search-history ul {
+    margin-bottom: 0;
+    text-align: left; }
+    .search-history ul li {
+      font-size: 0.3rem;
+      border-bottom: 0.01rem solid #c2c2c2;
+      padding-top: 0.3rem;
+      padding-bottom: 0.35rem;
+      padding-left: 0.72rem;
+      background: url("../images/history.png") 0.3rem center no-repeat;
+      background-size: 0.3rem; }
+  .search-history #remove_history {
+    display: block;
+    font-size: 0.3rem;
+    color: #a2a1a1;
+    padding: 0.3rem 0;
+    text-decoration: none; }
+    .search-history #remove_history img {
+      width: 0.28rem;
+      height: 0.3rem; }
+
+/*# sourceMappingURL=search.css.map */

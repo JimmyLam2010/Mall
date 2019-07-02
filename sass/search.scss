@@ -1,0 +1,108 @@
+@import "common.scss";
+
+body{
+    background-color: #eeeeee;
+}
+
+.search-hot{
+    width: 90%;
+    margin: 20px auto 0;
+    background-color: #ffffff;
+    padding: 0.15rem 0.2rem 0.2rem;
+    .hot{
+        ul{
+            display: flex;
+            flex-direction: row;
+            flex-flow: wrap;
+            margin-bottom: 0;
+
+            @for $i from 1 to 4 {
+                li:nth-child(#{$i}){
+                    flex-basis: 33.3%;
+                }
+            }
+
+            li{
+                flex-basis: 50%;
+                font-size: 0.3rem;
+                text-align: center;
+                border-bottom: 0.01rem solid #c2c2c2;
+                border-right: 0.01rem solid #c2c2c2;
+                padding-top: 0.26rem;
+                padding-bottom: 0.32rem;
+            }
+
+            li:first-child{
+                color: #ff5b00;
+            }
+
+            li:nth-child(3){
+                border-right: none;
+            }
+
+            li:nth-child(2n+3){
+                border-right: none;
+            }
+        }
+    }
+    
+
+    .pagination{
+        margin-top: 0.15rem;
+
+        ul{
+            margin: 0 auto;
+
+            li{
+                display: inline-block;
+                width: 0.18rem;
+                height: 0.18rem;
+                border: 0.01rem solid #c2c2c2;
+                border-radius: 50%;
+                cursor: pointer;
+            }
+
+            li:first-child{
+                background-color: #fe9002;
+            }
+
+            li:hover{
+                background-color: #fe9002;
+            }
+        }
+    }
+}
+
+.search-history{
+    background-color: #ffffff;
+    margin-top: 0.1rem;
+    text-align: center;
+
+    ul{
+        margin-bottom: 0;
+        text-align: left;
+
+        li{
+            font-size: 0.3rem;
+            border-bottom: 0.01rem solid #c2c2c2;
+            padding-top: 0.3rem;
+            padding-bottom: 0.35rem;
+            padding-left: 0.72rem;
+            background: url("../images/history.png") 0.3rem center no-repeat;
+            background-size: 0.3rem;
+        }
+    }
+
+    #remove_history{
+        display: block;
+        font-size: 0.3rem;
+        color: #a2a1a1;
+        padding: 0.3rem 0;
+        text-decoration: none;
+
+        img{
+            width: 0.28rem;
+            height: 0.3rem;
+        }
+    }
+}

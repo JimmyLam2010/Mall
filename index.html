@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>主页</title>
     <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="bootstrap-4.3.1-dist/css/bootstrap.min.css">
     <script src="js/device-fit.js"></script>
 </head>
 <body>
@@ -19,10 +18,10 @@
                     </div>
                     <div class="col-6 col-sm-9 col-md-9 col-lg-9 col-xl-9 search">
                         <input type="submit" value="" id="search-sumbit">
-                        <input type="search" name="search" id="search" placeholder="输入商家、分类或商圈">
+                        <input type="search" name="search" id="search" placeholder="输入商家、分类或商圈" onkeyup="">
                     </div>
                     <div class="col-2 col-sm-1 col-md-1 col-lg-1 col-xl-1 scan">
-                        <a href=""><img src="images/scan.png" alt=""></a> 
+                        <a href="javascript:void(0)" id="scan"><img src="images/scan.png" alt=""></a> 
                     </div>
                     <div class="col-2 col-sm-1 col-md-1 col-lg-1 col-xl-1 notification">
                         <a href=""><img src="images/notification.png" alt=""></a> 
@@ -110,5 +109,7 @@
             </div>
         </div>
     </div>
+
+    <script src="js/search.js"></script>
 </body>
 </html>
