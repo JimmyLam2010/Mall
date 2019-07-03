@@ -19,6 +19,6 @@ var footerHeight = footer.clientHeight;
 window.onload = function(){
     winLeft.style.height = (winHeight - footerHeight) + "px";
     winRight.style.height = (winHeight - footerHeight) + "px";
-    console.log(winLeft);
-    console.log(footer.clientHeight);
+    // console.log(winLeft);
+    // console.log(footer.clientHeight);
 }
